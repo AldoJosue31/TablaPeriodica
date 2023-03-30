@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .dato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .dato h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .dato p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #cccccc;
+  }
+  
+  /* Colores para los títulos */
+  .dato h3:nth-child(odd) {
+    color: #00b3e6;
+  }
+  
+  .dato h3:nth-child(even) {
+    color: #ff9a00;
+  }

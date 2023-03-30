@@ -1,0 +1,453 @@
+
+@import "_normalize.css";
+
+html {
+  font-size: 100%;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.offcanvas-content {
+  position: relative;
+  z-index: 2;
+  background-color: rgb(75, 74, 74);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#table {
+  display: grid;
+  grid-template-columns: repeat(17, auto) 1fr;
+}
+
+.site-title {
+  font-size: 1rem;
+}
+
+/* Every element box  */
+.element {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  padding: 2px;
+  /* border: 1px solid #333; */
+  border-collapse: collapse;
+  overflow: hidden;
+  margin: .5px;
+  border: 1.5px solid black;
+}
+
+.number {
+  float: left;
+  font-size: 0.8vw;
+  position: absolute;
+}
+
+.symbol {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5vw;
+  font-size: 2.5vw;
+}
+
+.element-name {
+  font-size: 0.8vw;
+  text-align: center;
+}
+
+#element-box .symbol {
+  font-size: 5vw;
+}
+
+#element-box .number {
+  font-size: 1vw;
+}
+
+#element-box .element-name {
+  font-size: 1.5vw;
+}
+
+#element-box {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  margin: 0;
+  padding: 0.2vw;
+  overflow: hidden;
+}
+
+/* Information Table  */
+#information {
+  grid-column: 5/13;
+  grid-row: 2/4;
+  padding: 0.5vw;
+  padding-top: 0;
+  font-size: 1vw;
+  max-height: 10vw;
+  overflow-y: scroll;
+}
+
+#information h1 {
+  margin: 0 0 0.5vw 0;
+}
+
+.big_title {
+  display: inline-block;
+}
+
+.cat_name {
+  border-radius: 3px;
+  padding: 0 5px;
+  margin-left: 5px;
+  top: -0.7vw;
+  position: relative;
+}
+
+.close-button {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.appearance {
+  margin-bottom: 0.5vw;
+}
+
+.atom_info {
+  margin-bottom: 0.5vw;
+  color: #998100;
+}
+
+/* Helium to the top right  */
+.element-2 {
+  grid-column-start: -2;
+}
+
+/* Boron & Alumunium to the right  */
+.element-5,
+.element-13 {
+  grid-column-start: 13;
+}
+
+/* Lanthinide & Actinoid split  */
+.element-58,
+.element-90 {
+  grid-column-start: 3;
+}
+
+/* I DID NOT KNOW THERE WAS 119th ONE! */
+
+.element-119 {
+  grid-column-start: -2;
+}
+
+/* Categories and Groups */
+
+/* Noble Gas  */
+.noble {
+  background: #f3d2e8;
+  background: linear-gradient(60deg, #f3d2e8, #e40c9c);
+  background-size: 400% 400%;
+  animation: noble 2.5s ease-in-out infinite;
+  }
+  
+  @keyframes noble {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }
+  
+  .Alcalinos {
+  background: #f88379;
+  background: linear-gradient(60deg, #e48d85, #f11b07);
+  background-size: 400% 400%;
+  animation: alcalinos 2.5s ease-in-out infinite;
+  }
+  
+  @keyframes alcalinos {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }
+
+/* Alkaline Earth Metal  */
+.Metal {
+  background: #ffc3a0;
+  background: linear-gradient(60deg, #fdaa79, #eb5d0b);
+  background-size: 400% 400%;
+  animation: alkaline-earth 2.5s ease-in-out infinite;
+}
+
+@keyframes alkaline-earth {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Transition Metal  */
+.alcalinoterreos {
+  background: #e9ff08;
+  background: linear-gradient(60deg, #ffe600, #e2b00a);
+  background-size: 400% 400%;
+  animation: transition 2.5s ease-in-out infinite;
+}
+
+@keyframes transition {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Polyatomic Non Metal  */
+.metales {
+  background: #a3d2d5;
+  background: linear-gradient(60deg, #a3d2d5, #148088);
+  background-size: 400% 400%;
+  animation: polyatomic 2.5s ease-in-out infinite;
+}
+
+@keyframes polyatomic {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Diatomic Non Metal  */
+.Halogenos {
+  background: #a3d5bf;
+  background: linear-gradient(60deg, #a3d5bf, #39a576);
+  background-size: 400% 400%;
+  animation: diatomic 2.5s ease-in-out infinite;
+}
+
+@keyframes diatomic {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Post Transition Metal  */
+.Otro {
+  background: #8eb1e7;
+  background: linear-gradient(60deg, #8eb1e7, #0960e4);
+  background-size: 400% 400%;
+  animation: post-transition 2.5s ease-in-out infinite;
+}
+
+@keyframes post-transition {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Metalloid */
+.Metaloides {
+  background: #5ed89c;
+  background: linear-gradient(90deg, #5ed89c, #15864e);
+  background-size: 400% 400%;
+  animation: metalloid 2.5s ease-in-out infinite;
+}
+
+@keyframes metalloid {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Lanthanide  */
+.Lantanoides {
+  background: #c9f;
+  background: linear-gradient(90deg, rgb(177, 98, 255), rgb(108, 13, 202));
+  background-size: 400% 400%;
+  animation: lanthanide 2.5s ease-in-out infinite;
+  margin-top: 2.5vw;
+}
+
+@keyframes lanthanide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Actinoides  */
+.Actinoides {
+  background: #ad87bd;
+  background: linear-gradient(90deg, #d980ff, #ad1deb);
+  background-size: 400% 400%;
+  animation: actinide 2.5s ease-in-out infinite;
+}
+
+@keyframes actinide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* The Desconocido Element  */
+.Desconocido {
+  background: rgb(0, 255, 255);
+  background: linear-gradient(90deg, rgb(113, 216, 216), rgb(13, 173, 173));
+  background-size: 400% 400%;
+  animation: Desconocido 2.5s ease-in-out infinite;
+}
+
+@keyframes Desconocido {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Disable the top space for the first lathenide which sits inside the table  */
+.element-57 {
+  margin: 0;
+}
+
+/* When in the hover state  */
+.active {
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px rgb(255, 255, 255), 
+              0 0 20px rgb(255, 255, 255), 
+              0 0 40px rgb(255, 255, 255), 
+              0 0 80px rgb(255, 255, 255);
+  transition: box-shadow 0.1s ease-in-out;
+
+}
+
+.footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .element {
+    border: 0;
+    width: 7vw;
+    height: 7vw;
+  }
+}
