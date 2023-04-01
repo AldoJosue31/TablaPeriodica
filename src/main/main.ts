@@ -87,6 +87,7 @@ const createWindow = async () => {
   require('electron-drag')(mainWindow);
 
   mainWindow.loadURL(resolveHtmlPath('index.html'));
+  
 
   mainWindow.on('ready-to-show', () => {
     if (!mainWindow) {

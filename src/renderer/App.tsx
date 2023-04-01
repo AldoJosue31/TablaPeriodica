@@ -7,6 +7,7 @@ import ListaDatos from "./ListaDatos";
 import CloseButton from "./btnCerrar";
 import Element from "./Element";
 import "../styles/elements.css"
+import DarkContainer from "./DarkContainer";
 
 
 interface AppState {
@@ -49,11 +50,13 @@ class Hello extends Component<{}, AppState> {
       impactoAmbiental,
       categoria,
       color,
-      url
+      urlNatural,
+      urlUtilidad
     } = this.state.element;
 
     return (  
       <div className="wrapper">
+        <h1>Tabla periódica de elementos químicos</h1>
         <div className='Barra'></div>
         <div id="table">
           {/* Renderizar elementos del 1-4 */}
@@ -111,7 +114,19 @@ class Hello extends Component<{}, AppState> {
                     </div>
                 
                   </div>
+                  
                 </div>
+                <div>
+    
+    </div>
+    <DarkContainer
+        title1="Elemento en la naturaleza"
+        title2="Elemento utilizado por la humanidad"
+        image1={urlNatural}
+        image2={urlUtilidad}
+      />                         
+             
+                
               </div>
             </div>
           )}

@@ -22,7 +22,8 @@ module.exports = {
         xpos: 1,
         ypos: 1,
         shells: [1],
-        url: "../imgs/natural/1_Hidrogeno.jpeg"
+         urlNatural: "/images/natural/1.png",
+           urlUtilidad: "/images/utilidad/1.png"
       , color: "#39a576"},
       {
         nombre: 'Helio',
@@ -39,7 +40,8 @@ module.exports = {
         xpos: 18,
         ypos: 1,
         shells: [2],
-        url: ""
+         urlNatural: "/images/natural/2.png",
+           urlUtilidad: "/images/utilidad/2.png"
       , color: "#e40c9c"},
       {
         nombre: 'Litio',
@@ -56,7 +58,8 @@ module.exports = {
         xpos: 1,
         ypos: 2,
         shells: [2, 1],
-        url: ""
+         urlNatural: "/images/natural/3.png",
+           urlUtilidad: "/images/utilidad/3.png"
       , color: "#eb5d0b"},
       {
         nombre: 'Berilio',
@@ -72,7 +75,8 @@ module.exports = {
         xpos: 2,
         ypos: 2,
         shells: [2, 2],
-         url: ""
+         urlNatural: "/images/natural/4.png",
+           urlUtilidad: "/images/utilidad/4.png"
       , color: "#e2b00a"},
       {
         nombre: 'Boro',
@@ -88,7 +92,8 @@ module.exports = {
         xpos: 13,
         ypos: 2,
         shells: [2, 3],
-         url: ""
+         urlNatural: "/images/natural/5.png",
+           urlUtilidad: "/images/utilidad/5.png"
       , color: "#15864e"},
       {
         nombre: 'Carbono',
@@ -104,7 +109,8 @@ module.exports = {
         xpos: 14,
         ypos: 2,
         shells: [2, 4],
-         url: ""
+         urlNatural: "/images/natural/6.png",
+           urlUtilidad: "/images/utilidad/6.png"
       , color: "#148088"},
       {
         nombre: 'Nitrogeno',
@@ -121,7 +127,8 @@ module.exports = {
         xpos: 15,
         ypos: 2,
         shells: [2, 5],
-         url: ""
+         urlNatural: "/images/natural/7.png",
+           urlUtilidad: "/images/utilidad/7.png"
       , color: "#148088"},
       {
         nombre: 'Oxigeno',
@@ -137,7 +144,8 @@ module.exports = {
         xpos: 16,
         ypos: 2,
         shells: [2, 6],
-         url: ""
+         urlNatural: "/images/natural/8.png",
+           urlUtilidad: "/images/utilidad/8.png"
       , color: "#148088"},
       {
         nombre: 'Fluor',
@@ -153,7 +161,8 @@ module.exports = {
         xpos: 17,
         ypos: 2,
         shells: [2, 7],
-         url: ""
+         urlNatural: "/images/natural/9.png",
+           urlUtilidad: "/images/utilidad/9.png"
       , color: "#39a576"},
       {
         nombre: 'Neon',
@@ -169,7 +178,8 @@ module.exports = {
         xpos: 18, 
         ypos: 2,
         shells: [2, 8],
-         url: ""
+         urlNatural: "/images/natural/10.png",
+           urlUtilidad: "/images/utilidad/10.png"
       , color: "#e40c9c"},
       {
         nombre: 'Sodio',
@@ -185,7 +195,8 @@ module.exports = {
         xpos: 1,
         ypos: 3,
         shells: [2, 8, 1],
-         url: ""
+         urlNatural: "/images/natural/11.png",
+           urlUtilidad: "/images/utilidad/11.png"
       , color: "#eb5d0b"},
       {
         nombre: 'Magnesio',
@@ -202,7 +213,8 @@ module.exports = {
         xpos: 2,
         ypos: 3,
         shells: [2, 8, 2],
-         url: ""
+         urlNatural: "/images/natural/12.png",
+           urlUtilidad: "/images/utilidad/12.png"
       , color: "#e2b00a"},
       {
         nombre: 'Aluminio',
@@ -220,7 +232,8 @@ module.exports = {
         xpos: 13,
         ypos: 3,
         shells: [2, 8, 3],
-         url: ""
+         urlNatural: "/images/natural/13.png",
+           urlUtilidad: "/images/utilidad/13.png"
       , color: "#0960e4"},
       {
         nombre: 'Silicio',
@@ -237,7 +250,8 @@ module.exports = {
         xpos: 14,
         ypos: 3,
         shells: [2, 8, 4],
-         url: ""
+         urlNatural: "/images/natural/14.png",
+           urlUtilidad: "/images/utilidad/14.png"
       , color: "#15864e"},
       {
         nombre: 'Fosforo',
@@ -254,7 +268,8 @@ module.exports = {
         xpos: 15,
         ypos: 3,
         shells: [2, 8, 5],
-         url: ""
+         urlNatural: "/images/natural/15.png",
+           urlUtilidad: "/images/utilidad/15.png"
       , color: ""},
       {
         nombre: 'Azufre',
@@ -270,7 +285,8 @@ module.exports = {
         xpos: 16,
         ypos: 3,
         shells: [2, 8, 6],
-         url: ""
+         urlNatural: "/images/natural/16.png",
+           urlUtilidad: "/images/utilidad/16.png"
       , color: "#148088"},
       {
         nombre: 'Cloro',
@@ -286,7 +302,8 @@ module.exports = {
         xpos: 17,
         ypos: 3,
         shells: [2, 8, 7],
-         url: ""
+         urlNatural: "/images/natural/17.png",
+           urlUtilidad: "/images/utilidad/17.png"
       , color: "#39a576"},
       {
         nombre: 'Argon',
@@ -302,7 +319,8 @@ module.exports = {
         xpos: 18,
         ypos: 3,
         shells: [2, 8, 8],
-         url: ""
+         urlNatural: "/images/natural/18.png",
+           urlUtilidad: "/images/utilidad/18.png"
       , color: "#e40c9c"},
       {
         nombre: 'Potasio',
@@ -318,7 +336,8 @@ module.exports = {
         xpos: 1,
         ypos: 4,
         shells: [2, 8, 8, 1],
-         url: ""
+         urlNatural: "/images/natural/19.png",
+           urlUtilidad: "/images/utilidad/19.png"
       , color: "#eb5d0b"},
       {
         nombre: 'Calcio',
@@ -334,7 +353,8 @@ module.exports = {
         xpos: 2,
         ypos: 4,
         shells: [2, 8, 8, 2],
-         url: ""
+         urlNatural: "/images/natural/20.png",
+           urlUtilidad: "/images/utilidad/20.png"
       , color: "#e2b00a"},
       {
         nombre: 'Escandio',
@@ -350,7 +370,8 @@ module.exports = {
         xpos: 3,
         ypos: 4,
         shells: [2, 8, 9, 2],
-         url: "#e9ff08"
+         urlNatural: "/images/natural/21.png",
+           urlUtilidad: "/images/utilidad/21.png"
       , color: "#e9ff08"},
       {
         nombre: 'Titanio',
@@ -368,7 +389,9 @@ module.exports = {
         xpos: 4,
         ypos: 4,
         shells: [2, 8, 10, 2],
-         url: "#e9ff08"
+         urlNatural: "/images/natural/22.png",
+           urlUtilidad: "/images/utilidad/22.png",
+         urlNatural: "#e9ff08"
       , color: "#e9ff08"},
       {
         nombre: 'Vanadio',
@@ -384,7 +407,8 @@ module.exports = {
         xpos: 5,
         ypos: 4,
         shells: [2, 8, 11, 2],
-         url: "#e9ff08"
+         urlNatural: "/images/natural/23.png",
+           urlUtilidad: "/images/utilidad/23.png"
       , color: "#e9ff08"},
       {
         nombre: 'Cromo',
@@ -400,7 +424,8 @@ module.exports = {
         xpos: 6,
         ypos: 4,
         shells: [2, 8, 13, 1],
-         url: ""
+         urlNatural: "/images/natural/24.png",
+           urlUtilidad: "/images/utilidad/24.png"
       , color: "#e9ff08"},
       {
         nombre: 'Manganeso',
@@ -416,8 +441,9 @@ module.exports = {
         xpos: 7,
         ypos: 4,
         shells: [2, 8, 13, 2],
-         url: ""
-      , color: "#e9ff08"},
+         urlNatural: "/images/natural/25.png",
+           urlUtilidad: "/images/utilidad/25.png",
+     color: "#e9ff08"},
       {
         nombre: 'Hierro',
         masaAtomica: 55.8452,
@@ -432,8 +458,9 @@ module.exports = {
         xpos: 8,
         ypos: 4,
         shells: [2, 8, 14, 2],
-         url: ""
-      , color: "#e9ff08"},
+         urlNatural: "/images/natural/26.png",
+           urlUtilidad: "/images/utilidad/26.png",
+    color: "#e9ff08"},
       {
         nombre: 'Cobalto',
         masaAtomica: 58.9331944,
@@ -448,7 +475,8 @@ module.exports = {
         xpos: 9,
         ypos: 4,
         shells: [2, 8, 15, 2],
-         url: ""
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Niquel',
@@ -464,8 +492,9 @@ module.exports = {
         xpos: 10,
         ypos: 4,
         shells: [2, 8, 16, 2],
-         url: ""
-      , color: "#e9ff08"},
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png",
+       color: "#e9ff08"},
       {
         nombre: 'Cobre',
         masaAtomica: 63.5463,
@@ -479,7 +508,9 @@ module.exports = {
         simbolo: 'Cu',
         xpos: 11,
         ypos: 4,
-        shells: [2, 8, 18, 1]
+        shells: [2, 8, 18, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Zinc',
@@ -494,7 +525,9 @@ module.exports = {
         simbolo: 'Zn',
         xpos: 12,
         ypos: 4,
-        shells: [2, 8, 18, 2]
+        shells: [2, 8, 18, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Galio',
@@ -509,7 +542,9 @@ module.exports = {
         simbolo: 'Ga',
         xpos: 13,
         ypos: 4,
-        shells: [2, 8, 18, 3]
+        shells: [2, 8, 18, 3],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Germanio',
@@ -525,7 +560,9 @@ module.exports = {
         simbolo: 'Ge',
         xpos: 14,
         ypos: 4,
-        shells: [2, 8, 18, 4]
+        shells: [2, 8, 18, 4],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#15864e"},
       {
         nombre: 'Arsénio',
@@ -540,7 +577,9 @@ module.exports = {
         simbolo: 'As',
         xpos: 15,
         ypos: 4,
-        shells: [2, 8, 18, 5]
+        shells: [2, 8, 18, 5],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#15864e"},
       {
         nombre: 'Selenio',
@@ -555,7 +594,9 @@ module.exports = {
         simbolo: 'Se',
         xpos: 16,
         ypos: 4,
-        shells: [2, 8, 18, 6]
+        shells: [2, 8, 18, 6],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#148088"},
       {
         nombre: 'Bromo',
@@ -571,7 +612,9 @@ module.exports = {
         simbolo: 'Br',
         xpos: 17,
         ypos: 4,
-        shells: [2, 8, 18, 7]
+        shells: [2, 8, 18, 7],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#39a576"},
       {
         nombre: 'Kriptón',
@@ -586,7 +629,9 @@ module.exports = {
         simbolo: 'Kr',
         xpos: 18,
         ypos: 4,
-        shells: [2, 8, 18, 8]
+        shells: [2, 8, 18, 8],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e40c9c"},
       {
         nombre: 'Rubidio',
@@ -601,8 +646,10 @@ module.exports = {
         simbolo: 'Rb',
         xpos: 1,
         ypos: 5,
-        shells: [2, 8, 18, 8, 1]
-      , color: "#eb5d0b"},
+        shells: [2, 8, 18, 8, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png",
+       color: "#eb5d0b"},
       {
         nombre: 'Estroncio',
         masaAtomica: 87.621,
@@ -616,7 +663,9 @@ module.exports = {
         simbolo: 'Sr',
         xpos: 2,
         ypos: 5,
-        shells: [2, 8, 18, 8, 2]
+        shells: [2, 8, 18, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e2b00a"},
       {
         nombre: 'Itrio',
@@ -631,7 +680,9 @@ module.exports = {
         simbolo: 'Y',
         xpos: 3,
         ypos: 5,
-        shells: [2, 8, 18, 9, 2]
+        shells: [2, 8, 18, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Circonio',
@@ -647,7 +698,9 @@ module.exports = {
         simbolo: 'Zr',
         xpos: 4,
         ypos: 5,
-        shells: [2, 8, 18, 10, 2]
+        shells: [2, 8, 18, 10, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Niobio',
@@ -663,7 +716,9 @@ module.exports = {
         simbolo: 'Nb',
         xpos: 5,
         ypos: 5,
-        shells: [2, 8, 18, 12, 1]
+        shells: [2, 8, 18, 12, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Molibdeno',
@@ -679,7 +734,9 @@ module.exports = {
         simbolo: 'Mo',
         xpos: 6,
         ypos: 5,
-        shells: [2, 8, 18, 13, 1]
+        shells: [2, 8, 18, 13, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Tecnicio',
@@ -695,7 +752,9 @@ module.exports = {
         simbolo: 'Tc',
         xpos: 7,
         ypos: 5,
-        shells: [2, 8, 18, 13, 2]
+        shells: [2, 8, 18, 13, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Rutenio',
@@ -711,7 +770,9 @@ module.exports = {
         simbolo: 'Ru',
         xpos: 8,
         ypos: 5,
-        shells: [2, 8, 18, 15, 1]
+        shells: [2, 8, 18, 15, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Rodio',
@@ -727,7 +788,9 @@ module.exports = {
         simbolo: 'Rh',
         xpos: 9,
         ypos: 5,
-        shells: [2, 8, 18, 16, 1]
+        shells: [2, 8, 18, 16, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Paladio',
@@ -743,7 +806,9 @@ module.exports = {
         simbolo: 'Pd',
         xpos: 10,
         ypos: 5,
-        shells: [2, 8, 18, 18]
+        shells: [2, 8, 18, 18],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Plata',
@@ -759,7 +824,9 @@ module.exports = {
         simbolo: 'Ag',
         xpos: 11,
         ypos: 5,
-        shells: [2, 8, 18, 18, 1]
+        shells: [2, 8, 18, 18, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Cadmio',
@@ -775,7 +842,9 @@ module.exports = {
         simbolo: 'Cd',
         xpos: 12,
         ypos: 5,
-        shells: [2, 8, 18, 18, 2]
+        shells: [2, 8, 18, 18, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Indio',
@@ -791,7 +860,9 @@ module.exports = {
         simbolo: 'In',
         xpos: 13,
         ypos: 5,
-        shells: [2, 8, 18, 18, 3]
+        shells: [2, 8, 18, 18, 3],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Estaño',
@@ -807,7 +878,9 @@ module.exports = {
         simbolo: 'Sn',
         xpos: 14,
         ypos: 5,
-        shells: [2, 8, 18, 18, 4]
+        shells: [2, 8, 18, 18, 4],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Antimonio',
@@ -823,7 +896,9 @@ module.exports = {
         simbolo: 'Sb',
         xpos: 15,
         ypos: 5,
-        shells: [2, 8, 18, 18, 5]
+        shells: [2, 8, 18, 18, 5],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#15864e"},
       {
         nombre: 'Telurio',
@@ -840,7 +915,9 @@ module.exports = {
         simbolo: 'Te',
         xpos: 16,
         ypos: 5,
-        shells: [2, 8, 18, 18, 6]
+        shells: [2, 8, 18, 18, 6],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#15864e"},
       {
         nombre: 'Yodo',
@@ -856,7 +933,9 @@ module.exports = {
         simbolo: 'I',
         xpos: 17,
         ypos: 5,
-        shells: [2, 8, 18, 18, 7]
+        shells: [2, 8, 18, 18, 7],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#39a576"},
       {
         nombre: 'Xenón',
@@ -873,7 +952,9 @@ module.exports = {
         simbolo: 'Xe',
         xpos: 18,
         ypos: 5,
-        shells: [2, 8, 18, 18, 8]
+        shells: [2, 8, 18, 18, 8],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e40c9c"},
       {
         nombre: 'Cesio',
@@ -889,7 +970,9 @@ module.exports = {
         simbolo: 'Cs',
         xpos: 1,
         ypos: 6,
-        shells: [2, 8, 18, 18, 8, 1]
+        shells: [2, 8, 18, 18, 8, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#eb5d0b"},
       {
         nombre: 'Bario',
@@ -905,7 +988,9 @@ module.exports = {
         simbolo: 'Ba',
         xpos: 2,
         ypos: 6,
-        shells: [2, 8, 18, 18, 8, 2]
+        shells: [2, 8, 18, 18, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e2b00a"},
       {
         nombre: 'Lutecio',
@@ -921,7 +1006,9 @@ module.exports = {
         simbolo: 'La',
         xpos: 3,
         ypos: 9,
-        shells: [2, 8, 18, 18, 9, 2]
+        shells: [2, 8, 18, 18, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Cerio',
@@ -937,7 +1024,9 @@ module.exports = {
         simbolo: 'Ce',
         xpos: 4,
         ypos: 9,
-        shells: [2, 8, 18, 19, 9, 2]
+        shells: [2, 8, 18, 19, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Praseodimio',
@@ -952,7 +1041,9 @@ module.exports = {
         simbolo: 'Pr',
         xpos: 5,
         ypos: 9,
-        shells: [2, 8, 18, 21, 8, 2]
+        shells: [2, 8, 18, 21, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Neodimio',
@@ -967,7 +1058,9 @@ module.exports = {
         simbolo: 'Nd',
         xpos: 6,
         ypos: 9,
-        shells: [2, 8, 18, 22, 8, 2]
+        shells: [2, 8, 18, 22, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Prometio',
@@ -982,7 +1075,9 @@ module.exports = {
         simbolo: 'Pm',
         xpos: 7,
         ypos: 9,
-        shells: [2, 8, 18, 23, 8, 2]
+        shells: [2, 8, 18, 23, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Samario',
@@ -998,7 +1093,9 @@ module.exports = {
         simbolo: 'Sm',
         xpos: 8,
         ypos: 9,
-        shells: [2, 8, 18, 24, 8, 2]
+        shells: [2, 8, 18, 24, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Europio',
@@ -1014,7 +1111,9 @@ module.exports = {
         simbolo: 'Eu',
         xpos: 9,
         ypos: 9,
-        shells: [2, 8, 18, 25, 8, 2]
+        shells: [2, 8, 18, 25, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Gadolinium',
@@ -1030,7 +1129,9 @@ module.exports = {
         simbolo: 'Gd',
         xpos: 10,
         ypos: 9,
-        shells: [2, 8, 18, 25, 9, 2]
+        shells: [2, 8, 18, 25, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Terbio',
@@ -1046,7 +1147,9 @@ module.exports = {
         simbolo: 'Tb',
         xpos: 11,
         ypos: 9,
-        shells: [2, 8, 18, 27, 8, 2]
+        shells: [2, 8, 18, 27, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Disprosio',
@@ -1062,7 +1165,9 @@ module.exports = {
         simbolo: 'Dy',
         xpos: 12,
         ypos: 9,
-        shells: [2, 8, 18, 28, 8, 2]
+        shells: [2, 8, 18, 28, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Holmio',
@@ -1078,7 +1183,9 @@ module.exports = {
         simbolo: 'Ho',
         xpos: 13,
         ypos: 9,
-        shells: [2, 8, 18, 29, 8, 2]
+        shells: [2, 8, 18, 29, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Erbio',
@@ -1094,7 +1201,9 @@ module.exports = {
         simbolo: 'Er',
         xpos: 14,
         ypos: 9,
-        shells: [2, 8, 18, 30, 8, 2]
+        shells: [2, 8, 18, 30, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Tulio',
@@ -1110,7 +1219,9 @@ module.exports = {
         simbolo: 'Tm',
         xpos: 15,
         ypos: 9,
-        shells: [2, 8, 18, 31, 8, 2]
+        shells: [2, 8, 18, 31, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Iterbio',
@@ -1126,7 +1237,9 @@ module.exports = {
         simbolo: 'Yb',
         xpos: 16,
         ypos: 9,
-        shells: [2, 8, 18, 32, 8, 2]
+        shells: [2, 8, 18, 32, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Lutecio',
@@ -1142,7 +1255,9 @@ module.exports = {
         simbolo: 'Lu',
         xpos: 17,
         ypos: 9,
-        shells: [2, 8, 18, 32, 9, 2]
+        shells: [2, 8, 18, 32, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: ""},
       {
         nombre: 'Hafnio',
@@ -1158,7 +1273,9 @@ module.exports = {
         simbolo: 'Hf',
         xpos: 4,
         ypos: 6,
-        shells: [2, 8, 18, 32, 10, 2]
+        shells: [2, 8, 18, 32, 10, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Tantalo',
@@ -1174,7 +1291,9 @@ module.exports = {
         simbolo: 'Ta',
         xpos: 5,
         ypos: 6,
-        shells: [2, 8, 18, 32, 11, 2]
+        shells: [2, 8, 18, 32, 11, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Wolframio',
@@ -1193,7 +1312,9 @@ module.exports = {
         simbolo: 'W',
         xpos: 6,
         ypos: 6,
-        shells: [2, 8, 18, 32, 12, 2]
+        shells: [2, 8, 18, 32, 12, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Renio',
@@ -1208,7 +1329,9 @@ module.exports = {
         simbolo: 'Re',
         xpos: 7,
         ypos: 6,
-        shells: [2, 8, 18, 32, 13, 2]
+        shells: [2, 8, 18, 32, 13, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Osmio',
@@ -1223,7 +1346,9 @@ module.exports = {
         simbolo: 'Os',
         xpos: 8,
         ypos: 6,
-        shells: [2, 8, 18, 32, 14, 2]
+        shells: [2, 8, 18, 32, 14, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Iridio',
@@ -1238,7 +1363,9 @@ module.exports = {
         simbolo: 'Ir',
         xpos: 9,
         ypos: 6,
-        shells: [2, 8, 18, 32, 15, 2]
+        shells: [2, 8, 18, 32, 15, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Platino',
@@ -1253,7 +1380,9 @@ module.exports = {
         simbolo: 'Pt',
         xpos: 10,
         ypos: 6,
-        shells: [2, 8, 18, 32, 17, 1]
+        shells: [2, 8, 18, 32, 17, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Oro',
@@ -1268,7 +1397,9 @@ module.exports = {
         simbolo: 'Au',
         xpos: 11,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 1]
+        shells: [2, 8, 18, 32, 18, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Mercurio',
@@ -1283,7 +1414,9 @@ module.exports = {
          simbolo: 'Hg',
         xpos: 12,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 2]
+        shells: [2, 8, 18, 32, 18, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Talio',
@@ -1298,7 +1431,9 @@ module.exports = {
         simbolo: 'Tl',
         xpos: 13,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 3]
+        shells: [2, 8, 18, 32, 18, 3],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Plomo',
@@ -1313,7 +1448,9 @@ module.exports = {
         simbolo: 'Pb',
         xpos: 14,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 4]
+        shells: [2, 8, 18, 32, 18, 4],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Bismoto',
@@ -1328,7 +1465,9 @@ module.exports = {
         simbolo: 'Bi',
         xpos: 15,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 5]
+        shells: [2, 8, 18, 32, 18, 5],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Polonio',
@@ -1343,7 +1482,9 @@ module.exports = {
         simbolo: 'Po',
         xpos: 16,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 6]
+        shells: [2, 8, 18, 32, 18, 6],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#0960e4"},
       {
         nombre: 'Astato',
@@ -1358,7 +1499,9 @@ module.exports = {
         simbolo: 'At',
         xpos: 17,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 7]
+        shells: [2, 8, 18, 32, 18, 7],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#39a576"},
       {
         nombre: 'Radón',
@@ -1373,7 +1516,9 @@ module.exports = {
         simbolo: 'Rn',
         xpos: 18,
         ypos: 6,
-        shells: [2, 8, 18, 32, 18, 8]
+        shells: [2, 8, 18, 32, 18, 8],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e40c9c"},
       {
         nombre: 'Francio',
@@ -1387,7 +1532,9 @@ module.exports = {
         simbolo: 'Fr',
         xpos: 1,
         ypos: 7,
-        shells: [2, 8, 18, 32, 18, 8, 1]
+        shells: [2, 8, 18, 32, 18, 8, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#eb5d0b"},
       {
         nombre: 'Radio',
@@ -1402,7 +1549,9 @@ module.exports = {
         simbolo: 'Ra',
         xpos: 2,
         ypos: 7,
-        shells: [2, 8, 18, 32, 18, 8, 2]
+        shells: [2, 8, 18, 32, 18, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e2b00a"},
       {
         nombre: 'Actinidos',
@@ -1417,7 +1566,9 @@ module.exports = {
         simbolo: 'Ac',
         xpos: 3,
         ypos: 10,
-        shells: [2, 8, 18, 32, 18, 9, 2]
+        shells: [2, 8, 18, 32, 18, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Thorio',
@@ -1432,7 +1583,9 @@ module.exports = {
         simbolo: 'Th',
         xpos: 4,
         ypos: 10,
-        shells: [2, 8, 18, 32, 18, 10, 2]
+        shells: [2, 8, 18, 32, 18, 10, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Protactinio',
@@ -1448,7 +1601,9 @@ module.exports = {
        simbolo: 'Pa',
         xpos: 5,
         ypos: 10,
-        shells: [2, 8, 18, 32, 20, 9, 2]
+        shells: [2, 8, 18, 32, 20, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Uranio',
@@ -1459,7 +1614,9 @@ module.exports = {
         simbolo: 'U',
         xpos: 6,
         ypos: 10,
-        shells: [2, 8, 18, 32, 21, 9, 2]
+        shells: [2, 8, 18, 32, 21, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Neptunio',
@@ -1474,7 +1631,9 @@ module.exports = {
         simbolo: 'Np',
         xpos: 7,
         ypos: 10,
-        shells: [2, 8, 18, 32, 22, 9, 2]
+        shells: [2, 8, 18, 32, 22, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Plutonio',
@@ -1489,7 +1648,9 @@ module.exports = {
         simbolo: 'Pu',
         xpos: 8,
         ypos: 10,
-        shells: [2, 8, 18, 32, 24, 8, 2]
+        shells: [2, 8, 18, 32, 24, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Americio',
@@ -1504,7 +1665,9 @@ module.exports = {
         simbolo: 'Am',
         xpos: 9,
         ypos: 10,
-        shells: [2, 8, 18, 32, 25, 8, 2]
+        shells: [2, 8, 18, 32, 25, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Curio',
@@ -1520,7 +1683,9 @@ module.exports = {
        simbolo: 'Cm',
         xpos: 10,
         ypos: 10,
-        shells: [2, 8, 18, 32, 25, 9, 2]
+        shells: [2, 8, 18, 32, 25, 9, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Berkelio',
@@ -1535,7 +1700,9 @@ module.exports = {
         simbolo: 'Bk',
         xpos: 11,
         ypos: 10,
-        shells: [2, 8, 18, 32, 27, 8, 2]
+        shells: [2, 8, 18, 32, 27, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Californio',
@@ -1550,7 +1717,9 @@ module.exports = {
         simbolo: 'Cf',
         xpos: 12,
         ypos: 10,
-        shells: [2, 8, 18, 32, 28, 8, 2]
+        shells: [2, 8, 18, 32, 28, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Einstinio',
@@ -1565,7 +1734,9 @@ module.exports = {
         simbolo: 'Es',
         xpos: 13,
         ypos: 10,
-        shells: [2, 8, 18, 32, 29, 8, 2]
+        shells: [2, 8, 18, 32, 29, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Fermio',
@@ -1576,7 +1747,9 @@ module.exports = {
         simbolo: 'Fm',
         xpos: 14,
         ypos: 10,
-        shells: [2, 8, 18, 32, 30, 8, 2]
+        shells: [2, 8, 18, 32, 30, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Mendelevio',
@@ -1587,7 +1760,9 @@ module.exports = {
         simbolo: 'Md',
         xpos: 15,
         ypos: 10,
-        shells: [2, 8, 18, 32, 31, 8, 2]
+        shells: [2, 8, 18, 32, 31, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Nobelio',
@@ -1598,7 +1773,9 @@ module.exports = {
         simbolo: 'No',
         xpos: 16,
         ypos: 10,
-        shells: [2, 8, 18, 32, 32, 8, 2]
+        shells: [2, 8, 18, 32, 32, 8, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Lawrencio',
@@ -1609,7 +1786,9 @@ module.exports = {
         simbolo: 'Lr',
         xpos: 17,
         ypos: 10,
-        shells: [2, 8, 18, 32, 32, 8, 3]
+        shells: [2, 8, 18, 32, 32, 8, 3],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#ad1deb"},
       {
         nombre: 'Rutherfordio',
@@ -1620,7 +1799,9 @@ module.exports = {
         simbolo: 'Rf',
         xpos: 4,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 10, 2]
+        shells: [2, 8, 18, 32, 32, 10, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Dubnio',
@@ -1631,7 +1812,9 @@ module.exports = {
         simbolo: 'Db',
         xpos: 5,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 11, 2]
+        shells: [2, 8, 18, 32, 32, 11, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Seaborgio',
@@ -1642,7 +1825,9 @@ module.exports = {
         simbolo: 'Sg',
         xpos: 6,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 12, 2]
+        shells: [2, 8, 18, 32, 32, 12, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Bohrio',
@@ -1653,7 +1838,9 @@ module.exports = {
         simbolo: 'Bh',
         xpos: 7,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 13, 2]
+        shells: [2, 8, 18, 32, 32, 13, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Hasio',
@@ -1664,7 +1851,9 @@ module.exports = {
         simbolo: 'Hs',
         xpos: 8,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 14, 2]
+        shells: [2, 8, 18, 32, 32, 14, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "#e9ff08"},
       {
         nombre: 'Meithnerio',
@@ -1675,7 +1864,9 @@ module.exports = {
         simbolo: 'Mt',
         xpos: 9,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 15, 2]
+        shells: [2, 8, 18, 32, 32, 15, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Darmstatio',
@@ -1686,7 +1877,9 @@ module.exports = {
         simbolo: 'Ds',
         xpos: 10,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 16, 2]
+        shells: [2, 8, 18, 32, 32, 16, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Roentgenio',
@@ -1697,7 +1890,9 @@ module.exports = {
         simbolo: 'Rg',
         xpos: 11,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 17, 2]
+        shells: [2, 8, 18, 32, 32, 17, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Copernicio',
@@ -1708,7 +1903,9 @@ module.exports = {
         simbolo: 'Cn',
         xpos: 12,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 2]
+        shells: [2, 8, 18, 32, 32, 18, 2],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Nihonio',
@@ -1719,7 +1916,9 @@ module.exports = {
         simbolo: 'Nh',
         xpos: 13,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 3]
+        shells: [2, 8, 18, 32, 32, 18, 3],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Flerovio',
@@ -1730,7 +1929,9 @@ module.exports = {
         simbolo: 'Fl',
         xpos: 14,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 4]
+        shells: [2, 8, 18, 32, 32, 18, 4],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Moscovio',
@@ -1741,7 +1942,9 @@ module.exports = {
         simbolo: 'Mc',
         xpos: 15,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 5]
+        shells: [2, 8, 18, 32, 32, 18, 5],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Livermorio',
@@ -1752,7 +1955,9 @@ module.exports = {
         simbolo: 'Lv',
         xpos: 16,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 6]
+        shells: [2, 8, 18, 32, 32, 18, 6],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Teneso',
@@ -1763,7 +1968,9 @@ module.exports = {
         simbolo: 'Ts',
         xpos: 17,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 7]
+        shells: [2, 8, 18, 32, 32, 18, 7],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Oganesón',
@@ -1774,7 +1981,9 @@ module.exports = {
         simbolo: 'Og',
         xpos: 18,
         ypos: 7,
-        shells: [2, 8, 18, 32, 32, 18, 8]
+        shells: [2, 8, 18, 32, 32, 18, 8],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png"
       , color: "rgb(0, 255, 255)"},
       {
         nombre: 'Ununennium',
@@ -1787,6 +1996,8 @@ module.exports = {
         xpos: 1,
         ypos: 8,
         shells: [2, 8, 18, 32, 32, 18, 8, 1],
+         urlNatural: "/images/natural/.png",
+           urlUtilidad: "/images/utilidad/.png",
         color: "rgb(0, 255, 255)"
       }
     ]
